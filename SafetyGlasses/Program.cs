@@ -15,9 +15,9 @@ namespace SafetyGlasses
 
             string localPath = @"C:\Projects\SafetyGlasses\SafetyGlasses\SafetyGlasses\Images\";
             string endPoint = "https://southcentralus.api.cognitive.microsoft.com/";
-            Guid projectId = new Guid("7ca3cb2f-46e2-4aba-9cb4-a9caccf44a1f");
-            string predictionKey = "39ebd8dd72b74fe091987f10581ba541";
-            string trainingKey = "adc766fecc12426c8938d588bc469488";
+            Guid projectId = new Guid("");
+            string predictionKey = "";
+            string trainingKey = "";
 
             CustomVisionTrainingClient trainingApi = new CustomVisionTrainingClient()
             {
